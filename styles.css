@@ -1,7 +1,12 @@
-<script>
-  $(document).ready(function() {
-    $("#open-modal").click(function() {
-      $("#accio-modal").modal("show");
-    });
-  });
-</script>
+.modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  margin-top: 30vh;
+}
+
+.modal-content {
+  padding: 20px;
+	}
